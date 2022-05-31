@@ -9,19 +9,15 @@
 
 body{
   background-color: rgb(219, 230, 233);
+  margin-bottom: 3rem;
 }
 
 .App-header {
   background-image: url("./assets/5361112.png");
-background-size: cover;
-background-repeat: no-repeat;
-padding-bottom: 3rem;
-  min-height: 80vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   font-size: calc(10px + 2vmin);
+  padding: 3rem;
 }
 
 .App-link {
@@ -41,6 +37,10 @@ main{
   margin: 0 auto;
   padding: 0 5%;
 }
+.main-title{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
 
 
 .portfolio-cards{
@@ -59,9 +59,6 @@ main{
   padding: 10px 20px 10px 20px;
 }
 
-p, h2{
-  color: rgb(111, 108, 108);
-}
 
 
 @media screen and (min-width: 350px){
