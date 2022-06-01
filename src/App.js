@@ -16,10 +16,7 @@ function App() {
       </header>
 
       <main>
-        <Portfolio
-          title='Portfilio'
-          subtitle='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae, ab aperiam accusamus in perspiciatis atque recusandae dolorum repellat iure placeat libero ratione totam possimus praesentium blanditiis corrupti, numquam officia.'
-        />
+        <Portfolio title='Portfilio' subtitle='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae, ab aperiam accusamus in perspiciatis atque recusandae dolorum repellat iure placeat libero ratione totam.' />
         <Card />
       </main>
     </div>
