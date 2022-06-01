@@ -3,9 +3,8 @@ import HeaderSubtitle from './components/header/HeaderPar';
 import HeaderTitle from './components/header/HeaderText';
 import Portfolio from './components/mainTitle/PortfolioText';
 import HeaderBtn from './components/UI/Btn';
-// import AvatarImg from './assets/avatar.jpg';
-// import AvatarImg2 from './assets/card2.png';
-import { Card, Card1 } from './components/Cards/Card';
+
+import { Card } from './components/Cards/Card';
 
 function App() {
   return (
@@ -21,9 +20,7 @@ function App() {
           title='Portfilio'
           subtitle='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae, ab aperiam accusamus in perspiciatis atque recusandae dolorum repellat iure placeat libero ratione totam possimus praesentium blanditiis corrupti, numquam officia.'
         />
-
         <Card />
-        <Card1 />
       </main>
     </div>
   );

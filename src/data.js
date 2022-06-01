@@ -14,21 +14,18 @@ const cardData = [
     image: img1,
     text: 'Avatar Name',
   },
-];
-
-const card2Data = [
   {
-    image2: img2,
-    text: 'Avatar Name',
+    image: img2,
+    text: 'Another Avatar Name',
   },
   {
-    image2: img2,
-    text: 'Avatar Name',
+    image: img2,
+    text: 'Another Avatar Name',
   },
   {
-    image2: img2,
-    text: 'Avatar Name',
+    image: img2,
+    text: 'Another Avatar Name',
   },
 ];
 
-export { cardData, card2Data };
+export { cardData };
